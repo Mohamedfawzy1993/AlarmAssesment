@@ -1,17 +1,31 @@
 <div class="card mb-3">
   <div class="card-header">
     <i class="fas fa-chart-area"></i>
-    Alarms Generator Management</div>
+    Alarms Generator Management
+  </div>
   <div class="card-body">
-  <button class="btn btn-primary btn-block" [disabled]="generatorStatus == 1" (click)="startGenerator()">Start Generator</button>
-  <button class="btn btn-danger btn-block" [disabled]="generatorStatus == 0" (click)="stopGenerator()">Stop Generator</button>
+    <div class="form-group">
+      <div class="form-label-group">
+        <input type="text" id="alarmID" class="form-control" placeholder="Alarm ID" required="required"
+               autofocus="autofocus" [(ngModel)]="generatorInterval">
+        <label for="alarmID">Set Interval in Seconds</label>
+      </div>
+    </div>
+    <button class="btn btn-primary btn-block" [disabled]="generatorStatus == 1" (click)="startGenerator()">Start
+      Generator
+    </button>
+    <button class="btn btn-danger btn-block" [disabled]="generatorStatus == 0" (click)="stopGenerator()">Stop
+      Generator
+    </button>
   </div>
 </div>
 <div class="card mb-5">
   <div class="card-header">
     <i class="fas fa-chart-area"></i>
-    Alarms Generator Log</div>
+    Alarms Generator Log
+  </div>
   <div class="card-body">
-    <textarea class="form-control" disabled rows="5" [(ngModel)]="generatorLog"></textarea>
+    <textarea class="form-control" disabled rows="5" id="logArea">{{generatorLog}}
+    </textarea>
   </div>
 </div>

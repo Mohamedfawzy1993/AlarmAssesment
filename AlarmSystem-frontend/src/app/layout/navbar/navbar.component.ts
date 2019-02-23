@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {SharedSubjectService} from '../../shared/shared-subject-service.service';
-import {ConfigParams} from '../../config/config-params';
+import {ConfigParams} from '../../shared/config/config-params';
 
 @Component({
   selector: 'app-navbar',

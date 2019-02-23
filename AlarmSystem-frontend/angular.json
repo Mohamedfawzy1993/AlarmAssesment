@@ -33,7 +33,8 @@
               "src/style/js/sb-admin.js",
               "src/style/js/sb-admin.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
-              "src/style/js/chart.js/Chart.min.js"
+              "src/style/js/chart.js/Chart.min.js",
+              "node_modules/moment/min/moment.min.js"
             ],
             "es5BrowserSupport": true
           },

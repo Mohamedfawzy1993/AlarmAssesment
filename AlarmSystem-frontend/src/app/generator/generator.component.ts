@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {GeneratorService} from './generator.service';
 
 @Component({
@@ -12,8 +12,10 @@ export class GeneratorComponent implements OnInit {
   title = 'Generator';
   generatorLog = '';
   generatorStatus;
-  generatorInterval = 5000;
-  constructor(private generatorService: GeneratorService) { }
+  generatorInterval = 5;
+
+  constructor(private generatorService: GeneratorService) {
+  }
 
   ngOnInit() {
     console.log('ngCalled');
@@ -27,19 +29,29 @@ export class GeneratorComponent implements OnInit {
   }
 
   startGenerator() {
-    this.generatorService.startScheduler(this.generatorInterval).subscribe(
-      success => {
+    this.generatorService.startScheduler(this.generatorInterval   * 1000).subscribe(
+      (success: any) => {
         this.generatorStatus = 1;
+        this.generatorLog = success.join('' +
+          '\n');
+        this.scrollTextAreaToBottom();
       }
     );
   }
 
   stopGenerator() {
     this.generatorService.stopScheduler().subscribe(
-      success => {
+      (success: any) => {
         this.generatorStatus = 0;
+        this.generatorLog = success.join('' +
+          '\n');
+        this.scrollTextAreaToBottom();
       }
     );
   }
 
+  scrollTextAreaToBottom() {
+    const textarea = document.getElementById('logArea');
+    textarea.scrollTop = textarea.scrollHeight;
+  }
 }

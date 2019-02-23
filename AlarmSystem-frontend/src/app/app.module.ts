@@ -8,10 +8,11 @@ import { NavbarComponent } from './layout/navbar/navbar.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { GeneratorComponent } from './generator/generator.component';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { AlarmsComponent } from './alarms/alarms.component';
 import {SharedSubjectService} from './shared/shared-subject-service.service';
-import {ConfigParams} from './config/config-params';
+import {ConfigParams} from './shared/config/config-params';
+import { CommentsComponent } from './alarms/components/comments/comments.component';
 
 //
 const coreRoutes: Routes = [
@@ -28,13 +29,16 @@ const coreRoutes: Routes = [
     NavbarComponent,
     StatisticsComponent,
     GeneratorComponent,
-    AlarmsComponent
+    AlarmsComponent,
+    CommentsComponent,
+
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(coreRoutes),
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [HttpClient , SharedSubjectService],
   bootstrap: [AppComponent]

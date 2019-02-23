@@ -3,7 +3,7 @@ import {Chart} from '../../style/js/chart.js/Chart.min.js';
 import {StatisticsService} from './statistics.service';
 import {SharedSubjectService} from '../shared/shared-subject-service.service';
 import {Router} from '@angular/router';
-import {ConfigParams} from '../config/config-params';
+import {ConfigParams} from '../shared/config/config-params';
 
 @Component({
   selector: 'app-statistics',
