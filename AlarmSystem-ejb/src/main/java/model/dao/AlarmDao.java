@@ -1,8 +1,8 @@
 package model.dao;
 
-import model.dto.Alarm;
-import model.dto.Pagination;
-import model.dto.ResultSet;
+import model.entities.Alarm;
+import model.entities.Pagination;
+import model.entities.ResultSet;
 
 import javax.ejb.Stateless;
 import javax.persistence.Query;
@@ -32,9 +32,12 @@ public class AlarmDao extends AbstractDao<Alarm> {
         Query query = buildCriteriaQuery(alarm , 2);
         if(pagination != null){
             int firstResult = pagination.getPageSize() * (pagination.getCurrentPage()-1);
+            System.out.println("PageSize "+pagination.getPageSize());
             query = query.setFirstResult(firstResult).setMaxResults(pagination.getPageSize());
         }
-        return (List<Alarm>) query.getResultList();
+
+        List<Alarm> alarms = (List<Alarm>) query.getResultList();
+        return alarms;
     }
 
     // Build JPQL Statment from Alarm Object
@@ -43,7 +46,7 @@ public class AlarmDao extends AbstractDao<Alarm> {
 
         String query = "and ";
         String queryPrefix;
-
+        String orderByClause;
         if(type == 1)
             queryPrefix = "select count(u) from Alarm u where 1 = 1 ";
         else
@@ -55,10 +58,10 @@ public class AlarmDao extends AbstractDao<Alarm> {
             query += "u.siteId like :site and ";
         if(alarm.getSeverity() != null)
             query += "u.severity like :severity and ";
-        if(alarm.getSeverity() != null)
+        if(alarm.getDescription() != null)
             query += "u.description like :description and ";
-       if(alarm.getIsActive() != null)
-           query += "u.isActive = :isActive";
+
+       orderByClause = " order by u.recentChangeTimestamp desc";
 
        if(query.endsWith("and ")){
            System.out.println("Query End With Ends ? ");
@@ -67,18 +70,16 @@ public class AlarmDao extends AbstractDao<Alarm> {
 
 
         Query jpquery = getEntityManager().createQuery(queryPrefix +
-                query);
+                query + orderByClause);
 
         if(alarm.getAlarmId() != null)
             jpquery.setParameter("alarm", "%"+alarm.getAlarmId()+"%");
         if(alarm.getSiteId() != null)
             jpquery.setParameter("site", "%"+alarm.getSiteId()+"%");
         if(alarm.getSeverity() != null)
-            jpquery.setParameter("severity", alarm.getSeverity());
-        if(alarm.getSeverity() != null)
+            jpquery.setParameter("severity", "%"+alarm.getSeverity()+"%");
+        if(alarm.getDescription() != null)
             jpquery.setParameter("description", "%"+alarm.getDescription()+"%");
-        if(alarm.getIsActive() != null)
-            jpquery.setParameter("isActive", alarm.getIsActive());
 
         return jpquery;
     }

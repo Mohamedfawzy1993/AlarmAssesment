@@ -1,14 +1,20 @@
-package model.dto;
+package model.entities;
 
+
+import javax.json.bind.annotation.JsonbDateFormat;
+import javax.json.bind.annotation.JsonbTransient;
 import javax.persistence.*;
 import java.sql.Timestamp;
+import java.time.LocalDateTime;
 
 @Entity
 public class Comment {
     private Long id;
     private String comment;
-    private Timestamp commentTimestamp;
-    private Alarm alarmByAlarmId;
+    private LocalDateTime commentTimestamp;
+    private transient Alarm alarmByAlarmId;
+    @Transient
+    private String alarmID;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -33,11 +39,12 @@ public class Comment {
 
     @Basic
     @Column(name = "commentTimestamp", nullable = false)
-    public Timestamp getCommentTimestamp() {
+    @JsonbDateFormat("yyyy-MM-dd'T'HH:mm:ss")
+    public LocalDateTime getCommentTimestamp() {
         return commentTimestamp;
     }
 
-    public void setCommentTimestamp(Timestamp commentTimestamp) {
+    public void setCommentTimestamp(LocalDateTime commentTimestamp) {
         this.commentTimestamp = commentTimestamp;
     }
 
@@ -66,11 +73,23 @@ public class Comment {
 
     @ManyToOne
     @JoinColumn(name = "Alarm_id", referencedColumnName = "id", nullable = false)
+    @JsonbTransient
     public Alarm getAlarmByAlarmId() {
         return alarmByAlarmId;
     }
 
     public void setAlarmByAlarmId(Alarm alarmByAlarmId) {
         this.alarmByAlarmId = alarmByAlarmId;
+    }
+
+
+    @Transient
+    @java.beans.Transient
+    public String getAlarmID() {
+        return alarmID;
+    }
+
+    public void setAlarmID(String alarmID) {
+        this.alarmID = alarmID;
     }
 }

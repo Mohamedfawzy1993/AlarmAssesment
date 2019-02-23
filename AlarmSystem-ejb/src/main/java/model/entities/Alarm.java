@@ -1,8 +1,10 @@
-package model.dto;
+package model.entities;
 
+import javax.json.bind.annotation.JsonbDateFormat;
 import javax.persistence.*;
 import java.sql.Timestamp;
-import java.util.Collection;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -10,14 +12,17 @@ import java.util.Set;
 public class Alarm {
     private Long id;
     private String alarmId;
-    private Timestamp eventTime;
+    private LocalDateTime eventTime;
     private String severity;
     private String description;
-    private Timestamp ceaseTime;
+    private LocalDateTime ceaseTime;
     private String siteId;
     private Integer isActive;
+    private LocalDateTime recentChangeTimestamp;
     private Set<Comment> commentsById;
     private Set<Status> statusesById;
+
+    final static String dateFormat = DateTimeFormatter.ISO_DATE_TIME.toString();
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -42,11 +47,12 @@ public class Alarm {
 
     @Basic
     @Column(name = "eventTime", nullable = false)
-    public Timestamp getEventTime() {
+    @JsonbDateFormat("yyyy-MM-dd'T'HH:mm:ss")
+    public LocalDateTime getEventTime() {
         return eventTime;
     }
 
-    public void setEventTime(Timestamp eventTime) {
+    public void setEventTime(LocalDateTime eventTime) {
         this.eventTime = eventTime;
     }
 
@@ -72,11 +78,12 @@ public class Alarm {
 
     @Basic
     @Column(name = "ceaseTime", nullable = true)
-    public Timestamp getCeaseTime() {
+    @JsonbDateFormat("yyyy-MM-dd'T'HH:mm:ss")
+    public  LocalDateTime getCeaseTime() {
         return ceaseTime;
     }
 
-    public void setCeaseTime(Timestamp ceaseTime) {
+    public void setCeaseTime(LocalDateTime ceaseTime) {
         this.ceaseTime = ceaseTime;
     }
 
@@ -98,6 +105,20 @@ public class Alarm {
 
     public void setIsActive(Integer isActive) {
         this.isActive = isActive;
+    }
+
+    @Basic
+    @Column(name = "recentChangeTimestamp", nullable = false)
+    public LocalDateTime getRecentChangeTimestamp() {
+        return recentChangeTimestamp;
+    }
+
+    public void setRecentChangeTimestamp(LocalDateTime recentChangeTimestamp) {
+        this.recentChangeTimestamp = recentChangeTimestamp;
+    }
+
+    public static String getDateFormat() {
+        return dateFormat;
     }
 
     @Override

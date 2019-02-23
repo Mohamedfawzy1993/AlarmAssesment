@@ -1,14 +1,12 @@
 package controller.impl;
 
-import controller.interfaces.StatusController;
-import model.dto.Pagination;
-import model.dto.ResultSet;
-import model.dto.Status;
+import model.entities.Pagination;
+import model.entities.ResultSet;
+import model.entities.Status;
 
 import javax.ejb.Local;
 
-@Local(StatusController.class)
-public class StatusControllerImpl implements StatusController {
+public class StatusControllerImpl {
     public ResultSet<Status> findAlarmStatuses(long AlarmID, Pagination pagination) {
         return null;
     }

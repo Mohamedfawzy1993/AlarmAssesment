@@ -3,19 +3,16 @@ package controller.restcontroller;
 
 import controller.impl.AlarmControllerImpl;
 import controller.websocket.WebSocketServer;
-import model.dto.Alarm;
-import model.dto.Pagination;
-import model.dto.ResultSet;
+import model.entities.Alarm;
+import model.entities.Pagination;
+import model.entities.ResultSet;
 
-import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.QueryParam;
-import java.util.HashMap;
-import java.util.List;
 
 @Stateless
 @Path("alarm")
@@ -23,8 +20,7 @@ public class AlarmRestController {
 
     @Inject
     private AlarmControllerImpl alarmController;
-    @Inject
-    private WebSocketServer webSocketServer;
+
     @GET
     public ResultSet<Alarm> findAlarmByID(@QueryParam("id") String alarmID ,
                                           @QueryParam("currentPage") int currentPage,
@@ -48,6 +44,7 @@ public class AlarmRestController {
                                           @QueryParam("currentPage") int currentPage,
                                           @QueryParam("pageSize") int pageSize) {
         Alarm alarm = new Alarm();
+
         Pagination pagination = new Pagination(pageSize , 0 , currentPage);
         if(alarmID != null)
             alarm.setAlarmId(alarmID);
@@ -66,13 +63,5 @@ public class AlarmRestController {
 
     }
 
-
-    @POST
-    @Path("test")
-    public void test(){
-        ResultSet hashMap = this.alarmController.findAlarmsActiveVsCeased();
-        System.out.println("In Test Service");
-        this.webSocketServer.sendMessageToSessions(hashMap);
-    }
 
 }

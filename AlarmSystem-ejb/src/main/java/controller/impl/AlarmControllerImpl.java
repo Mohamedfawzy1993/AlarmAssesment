@@ -1,28 +1,28 @@
 package controller.impl;
 
-import controller.interfaces.AlarmController;
+import controller.websocket.WebSocketServer;
 import model.dao.AlarmDao;
-import model.dto.Alarm;
-import model.dto.Pagination;
-import model.dto.ResultSet;
-import model.dto.Status;
+import model.entities.Alarm;
+import model.entities.Pagination;
+import model.entities.ResultSet;
+import model.entities.Status;
 import util.TimeStampUtil;
 
 import javax.annotation.PostConstruct;
+import javax.ejb.Local;
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
-import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.*;
 
 //@Local(AlarmController.class)
 @Stateless
 @LocalBean
-public class AlarmControllerImpl implements AlarmController {
+public class AlarmControllerImpl {
 
-    @Inject
-    private AlarmDao alarmDao;
+    @Inject private AlarmDao alarmDao;
+    @Inject private WebSocketServer webSocketServer;
 
     List<String> severities = new ArrayList<String>();
 
@@ -64,11 +64,14 @@ public class AlarmControllerImpl implements AlarmController {
         alarm.setIsActive(1);
         alarm.setDescription("Description");
         alarm.setSeverity(severities.get(criticalIndex));
-        alarm.setEventTime(TimeStampUtil.CURRENT_TIME());
+//        alarm.setEventTime(TimeStampUtil.CURRENT_TIME());
+        alarm.setEventTime(LocalDateTime.now());
+        alarm.setRecentChangeTimestamp(LocalDateTime.now());
+        // ToDo recheck this assigning
 
         Status status = new Status();
         status.setStatus("active");
-        status.setStatusChangeTimestamp(TimeStampUtil.CURRENT_TIME());
+        status.setStatusChangeTimestamp(LocalDateTime.now());
         status.setAlarmByAlarmId(alarm);
 
         HashSet<Status> statusHashSet = new HashSet<>();
@@ -76,6 +79,7 @@ public class AlarmControllerImpl implements AlarmController {
         alarm.setStatusesById(statusHashSet);
 
         this.alarmDao.insert(alarm);
+        this.webSocketServer.sendMessageToSessions(alarm);
     }
 
     public void ceaseRandomActiveAlarm() {
@@ -89,16 +93,17 @@ public class AlarmControllerImpl implements AlarmController {
             System.out.println(randomAlarm);
             // Cease Alarm
             randomAlarm.setIsActive(0);
-            randomAlarm.setCeaseTime(TimeStampUtil.CURRENT_TIME());
+            randomAlarm.setCeaseTime(LocalDateTime.now());
             randomAlarm.addStatusesByID(status);             // Add Status to Alarm
-
+            randomAlarm.setRecentChangeTimestamp(LocalDateTime.now());
             // Create New Status for Alarm
             status.setStatus("ceased");
-            status.setStatusChangeTimestamp(TimeStampUtil.CURRENT_TIME());
+            status.setStatusChangeTimestamp(LocalDateTime.now());
             status.setAlarmByAlarmId(randomAlarm);
 
 
             this.alarmDao.update(randomAlarm);
+            this.webSocketServer.sendMessageToSessions(randomAlarm);
         }
     }
 

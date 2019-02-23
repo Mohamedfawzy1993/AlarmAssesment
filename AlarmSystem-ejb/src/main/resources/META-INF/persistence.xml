@@ -8,11 +8,12 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
         <jta-data-source>alarmSys</jta-data-source>
-        <class>model.dto.Alarm</class>
-        <class>model.dto.Comment</class>
-        <class>model.dto.Status</class>
+        <class>model.entities.Alarm</class>
+        <class>model.entities.Comment</class>
+        <class>model.entities.Status</class>
         <properties>
             <property name="hibernate.transaction.jta.platform" value="org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform"/>
+            <!--<property name = "hibernate.show_sql" value = "true" />-->
         </properties>
     </persistence-unit>
 </persistence>

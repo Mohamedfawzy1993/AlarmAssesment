@@ -1,7 +1,7 @@
 package controller.websocket;
 
 
-import com.google.gson.Gson;
+import util.JsonUtil;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.websocket.*;
@@ -33,9 +33,10 @@ public class WebSocketServer {
         for (Session session : connectedSessions) {
             try {
                 currentSendingSession = session;
-                String jsonObject = new Gson().toJson(o);
+                String jsonObject = JsonUtil.toJson(o);
                 session.getBasicRemote().sendText(jsonObject);
             } catch (IOException e) {
+                System.out.println(e);
                 toBeRemovedSessions.add(currentSendingSession);
             }
         }
@@ -49,4 +50,6 @@ public class WebSocketServer {
 
         toBeRemovedSessions.clear();
     }
+
+
 }

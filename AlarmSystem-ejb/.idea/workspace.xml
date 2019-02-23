@@ -7,9 +7,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e54329a9-e470-4673-95dc-fa366e422677" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/artifacts/AlarmSys/WEB-INF/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/artifacts/AlarmSys/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_bind_javax_json_bind_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/ConfigParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/restcontroller/CommentRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/alarms/components/comments/comment-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/alarms/components/comments/comments.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/alarms/components/comments/comments.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/alarms/components/comments/comments.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/shared/config/config-params.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/shared/validators/no-whitespace-validator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/AlarmSys.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/AlarmSys.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/92e7da99-6927-4b33-8a80-00c7991b0d2b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/92e7da99-6927-4b33-8a80-00c7991b0d2b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlarmSystem-ejb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlarmSystem-ejb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/impl/AlarmControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/impl/AlarmControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/impl/CommentControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/impl/CommentControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/impl/StatusControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/impl/StatusControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/interfaces/AlarmController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/interfaces/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/interfaces/StatusController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/restcontroller/AlarmRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/restcontroller/AlarmRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/restcontroller/SchedulerJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/restcontroller/SchedulerJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/restcontroller/StatRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/restcontroller/StatRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/websocket/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/websocket/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/AlarmDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/AlarmDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/CommentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/StatusDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/StatusDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dto/Alarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entities/Alarm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dto/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entities/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dto/Pagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entities/Pagination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dto/ResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entities/ResultSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dto/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entities/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schedulerjob/AlarmScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schedulerjob/AlarmScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/alarms/alarms.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/alarms/alarms.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/alarms/alarms.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/alarms/alarms.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/alarms/alarms.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/config/config-params.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/generator/generator.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/generator/generator.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/generator/generator.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/generator/generator.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/generator/generator.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/generator/generator.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/layout/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/layout/navbar/navbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/statistics/statistics.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/statistics/statistics.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/statistics/statistics.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/app/statistics/statistics.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlarmSystem-frontend/src/style/css/sb-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/../AlarmSystem-frontend/src/style/css/sb-admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Schema/AlarmSysSchema.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/../Schema/AlarmSysSchema.mwb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,16 +99,26 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="alarmsystem: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="alarmsystem@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="alarmsystem: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="alarm: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AlarmSystem-ejb" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AlarmDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/AlarmDao.java">
+      <file leaf-file-name="CommentControllerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/impl/CommentControllerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1921">
-              <caret line="121" column="46" selection-start-line="121" selection-start-column="46" selection-end-line="121" selection-end-column="46" />
+            <state relative-caret-position="84">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,40 +126,94 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlarmControllerImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/impl/AlarmControllerImpl.java">
+      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+            <state relative-caret-position="188">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatusControllerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/impl/StatusControllerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#searchAlarmByID#0;class#AlarmControllerImpl#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alarm" pinned="false" current-in-tab="true">
-        <entry file="das://92e7da99-6927-4b33-8a80-00c7991b0d2b/schema/alarmsystem/table/alarm">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="SchedulerJobService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/restcontroller/SchedulerJobService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="status" pinned="false" current-in-tab="false">
-        <entry file="das://92e7da99-6927-4b33-8a80-00c7991b0d2b/schema/alarmsystem/table/status">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="WebSocketServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/websocket/WebSocketServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#open#0;class#WebSocketServer#0" />
+                <element signature="method#sendMessageToSessions#0;class#WebSocketServer#0" />
+                <element signature="method#clearSessionsToBeDeleted#0;class#WebSocketServer#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="status.sql" pinned="false" current-in-tab="false">
-        <entry file="das://92e7da99-6927-4b33-8a80-00c7991b0d2b/schema/alarmsystem/table/status.sql">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="AlarmScheduler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/schedulerjob/AlarmScheduler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="70" column="101" lean-forward="true" selection-start-line="70" selection-start-column="101" selection-end-line="70" selection-end-column="101" />
+              <folding>
+                <element signature="method#programmaticTimeout#0;class#AlarmScheduler#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/DateUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentRestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/restcontroller/CommentRestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -109,6 +226,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>order</find>
+      <find>severity</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -119,31 +242,41 @@
         <option value="$PROJECT_DIR$/src/main/java/model/dto/pagination.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/interfaces/CommentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/interfaces/StatusController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/impl/CommentControllerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/impl/StatusControllerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/restcontroller/alarm.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/RestServiceResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/dto/ResultSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/dao/CommentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/dto/Pagination.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/util/TimeStampUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/dto/Comment.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/dao/StatusDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/interfaces/AlarmController.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/dao/AbstractDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/dto/Status.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/dto/Alarm.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/CrosFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/restcontroller/StatRestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/schedulerjob/AlarmScheduler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/restcontroller/SchedulerJobService.java" />
+        <option value="92e7da99-6927-4b33-8a80-00c7991b0d2b/schema/alarmsystem/table/status.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dto/Comment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dto/Alarm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dto/Status.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dto/StatusDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dto/CommentDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dto/AlarmDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/interfaces/AlarmController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/restcontroller/AlarmRestController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/websocket/WebSocketServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/entities/Status.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/entities/Alarm.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/92e7da99-6927-4b33-8a80-00c7991b0d2b/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/model/dao/AlarmDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/impl/AlarmControllerImpl.java" />
-        <option value="92e7da99-6927-4b33-8a80-00c7991b0d2b/schema/alarmsystem/table/status.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/impl/StatusControllerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/CommentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/entities/Comment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/impl/CommentControllerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/restcontroller/CommentRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/websocket/WebSocketServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/restcontroller/SchedulerJobService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/DateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/schedulerjob/AlarmScheduler.java" />
       </list>
     </option>
   </component>
@@ -184,6 +317,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,6 +349,66 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlarmSystem-ejb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlarmSystem-ejb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlarmSystem-ejb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlarmSystem-ejb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="restcontroller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlarmSystem-ejb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlarmSystem-ejb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlarmSystem-ejb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlarmSystem-ejb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlarmSystem-ejb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlarmSystem-ejb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlarmSystem-ejb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlarmSystem-ejb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="schedulerjob" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlarmSystem-ejb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlarmSystem-ejb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -232,12 +426,16 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AlarmSystem-ejb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlarmSystem-ejb" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -250,14 +448,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15722656" />
     <property name="project.structure.side.proportion" value="0.37891078" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="model.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\AlarmSystem-ejb\AlarmAssesment\AlarmSystem-ejb\src\main\java\model\dto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -293,7 +495,7 @@
       </server-settings>
       <predefined_log_file id="GlassFish" enabled="true" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="9009" />
+        <option name="DEBUG_PORT" value="50746" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -402,7 +604,8 @@
       <workItem from="1550493808484" duration="5190000" />
       <workItem from="1550651468753" duration="3416000" />
       <workItem from="1550701346110" duration="2858000" />
-      <workItem from="1550705435115" duration="857000" />
+      <workItem from="1550705435115" duration="28561000" />
+      <workItem from="1550916730943" duration="5898000" />
     </task>
     <task id="LOCAL-00001" summary="Backend Initial Commit">
       <created>1550706179257</created>
@@ -415,39 +618,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61958000" />
+    <option name="totallyTimeSpent" value="95560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.50226927" side_tool="true" visible="true" weight="0.39933994" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.24357034" side_tool="true" weight="0.4240924" />
       <window_info anchor="bottom" id="Application Servers" order="9" sideWeight="0.49938875" weight="0.32838285" />
       <window_info anchor="right" id="Maven Projects" order="12" weight="0.32980332" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="14" weight="0.32980332" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.16641453" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" weight="0.16641453" />
       <window_info anchor="right" id="JSF" order="9" />
+      <window_info id="Structure" order="1" sideWeight="0.504298" side_tool="true" weight="0.27912253" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4977307" weight="0.39933994" />
+      <window_info active="true" anchor="bottom" id="Debug" order="6" sideWeight="0.4969743" visible="true" weight="0.34488449" />
       <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49394855" weight="0.32838285" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32838285" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4977307" weight="0.34488449" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.7564297" weight="0.36633664" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Persistence" order="7" sideWeight="0.50165564" side_tool="true" weight="0.2292176" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.27912253" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49622166" visible="true" weight="0.27912253" />
       <window_info anchor="right" id="Bean Validation" order="13" weight="0.32980332" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49848714" weight="0.32838285" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Favorites" order="5" sideWeight="0.50377834" side_tool="true" weight="0.27912253" />
       <window_info anchor="bottom" id="Statistic" order="13" weight="0.40963855" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.3297619" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,8 +661,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Code Iris" order="10" />
       <window_info anchor="right" id="PlantUML" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49848714" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Find" order="2" visible="true" weight="0.32838285" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
     </layout>
@@ -465,42 +668,42 @@
       <window_info id="Persistence" order="7" sideWeight="0.50165564" side_tool="true" weight="0.2292176" />
       <window_info anchor="bottom" id="Application Servers" order="9" sideWeight="0.49938875" weight="0.32838285" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="PlantUML" order="12" />
+      <window_info anchor="right" id="PlantUML" order="11" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4977307" visible="true" weight="0.36468646" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.7564297" visible="true" weight="0.4240924" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="JSF" order="10" />
+      <window_info anchor="right" id="JSF" order="9" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50226927" side_tool="true" weight="0.5247525" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49848714" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.24357034" side_tool="true" visible="true" weight="0.4240924" />
+      <window_info anchor="bottom" id="Statistic" order="13" weight="0.40963855" />
+      <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32838285" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Code Iris" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.25945538" />
-      <window_info anchor="right" id="Database" order="5" weight="0.16641453" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Maven Projects" order="12" weight="0.32980332" />
+      <window_info anchor="right" id="Code Iris" order="10" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.495702" visible="true" weight="0.27912253" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49394855" weight="0.32838285" />
+      <window_info anchor="right" id="Database" order="4" weight="0.16641453" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="bottom" id="Statistic" order="13" weight="0.40963855" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Structure" order="1" sideWeight="0.504298" side_tool="true" weight="0.27912253" />
       <window_info anchor="right" id="CDI" order="14" weight="0.32980332" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297619" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32838285" />
-      <window_info anchor="right" id="Bean Validation" order="13" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49924356" weight="0.39933994" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.3297619" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49848714" weight="0.32838285" />
+      <window_info anchor="right" id="Bean Validation" order="13" weight="0.32980332" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4969743" weight="0.39933994" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,394 +718,444 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="28" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="58" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/AlarmDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/CorsFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/persistence/Transient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/interfaces/AlarmController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/AlarmDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/json/bind/javax.json.bind-api/1.0/javax.json.bind-api-1.0.jar!/javax/json/bind/annotation/JsonbDateFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/time/format/DateTimeFormatterBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/time/format/DateTimeFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="701" column="56" selection-start-line="701" selection-start-column="42" selection-end-line="701" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/ConfigParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/entities/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2156#2157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/schedulerjob/AlarmScheduler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/internal/SessionFactoryImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        <state relative-caret-position="113">
+          <caret line="783" selection-start-line="783" selection-end-line="783" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/impl/AlarmControllerImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/internal/AbstractSharedSessionContract.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="82" selection-start-line="47" selection-start-column="82" selection-end-line="47" selection-end-column="82" />
+        <state relative-caret-position="215">
+          <caret line="290" selection-start-line="290" selection-end-line="290" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/engine/spi/SharedSessionContractImplementor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/query/internal/QueryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/query/internal/AbstractProducedQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="1167" selection-start-line="1167" selection-end-line="1167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/query/Query.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/92e7da99-6927-4b33-8a80-00c7991b0d2b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/query/internal/QueryParameterBindingsImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/query/internal/ParameterMetadataImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#searchAlarmByID#0;class#AlarmControllerImpl#0" />
+            <element signature="e#3777#3778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/AbstractSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="1450" column="50" selection-start-line="1450" selection-start-column="50" selection-end-line="1450" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="534" selection-start-line="534" selection-end-line="534" />
+          <folding>
+            <element signature="e#21367#21368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="994" selection-start-line="994" selection-end-line="994" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+          <folding>
+            <element signature="e#6024#6025#0" expanded="true" />
+            <element signature="e#6052#6053#0" expanded="true" />
+            <element signature="e#6249#6250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <element signature="e#5784#5785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/logging/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="1720" selection-start-line="1720" selection-end-line="1720" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/logging/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="403" selection-start-line="403" selection-end-line="403" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar!/org/jboss/logging/JDKLogger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="e#3331#3332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar!/org/jboss/logging/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20519">
+          <caret line="1241" selection-start-line="1241" selection-end-line="1241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/entities/Pagination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/entities/Alarm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#1639#1640#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/restcontroller/AlarmRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/restcontroller/StatRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="85">
+          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
+            <element signature="method#findAlarmByID#0;class#AlarmRestController#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/restcontroller/SchedulerJobService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/AbstractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/AlarmDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/CommentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/StatusDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/AbstractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/AlarmDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/CommentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/StatusDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/internal/SessionImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="2361" column="44" selection-start-line="2361" selection-start-column="21" selection-end-line="2361" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/enterprise/context/ApplicationScoped.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/impl/CommentControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/impl/StatusControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/interfaces/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/interfaces/StatusController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="14" column="43" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/CommentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/RestServiceResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/persistence/Query.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/Pagination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/ejb/TimerService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/ejb/Timeout.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/persistence/Id.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/TimeStampUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/Alarm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="103" column="36" selection-start-line="10" selection-end-line="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/interfaces/AlarmController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/StatusDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="method#getAlarmsByID#0;class#AlarmDao#0" />
+            <element signature="method#getAllActiveAlarms#0;class#AlarmDao#0" />
+            <element signature="method#getAlarmsCountBySeverity#0;class#AlarmDao#0" />
+            <element signature="method#getAlarmsActiveVsCeased#0;class#AlarmDao#0" />
+            <element signature="method#getTopAlarmSites#0;class#AlarmDao#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/AbstractDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/persistence/EntityManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/CorsFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/CommentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/entities/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2431#2432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/StatusDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/impl/AlarmControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#AlarmControllerImpl#0" />
+            <element signature="method#searchAlarmByID#0;class#AlarmControllerImpl#0" />
+            <element signature="method#generateNewAlarm#0;class#AlarmControllerImpl#0" />
+            <element signature="method#ceaseRandomActiveAlarm#0;class#AlarmControllerImpl#0" />
+            <element signature="method#findAlarmsCountBySeverity#0;class#AlarmControllerImpl#0" />
+            <element signature="method#findAlarmsActiveVsCeased#0;class#AlarmControllerImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/restcontroller/CommentRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        <state relative-caret-position="188">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/restcontroller/SchedulerJobService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/impl/CommentControllerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/schedulerjob/AlarmScheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        <state relative-caret-position="84">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="357">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/restcontroller/StatRestController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/TimeStampUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/impl/StatusControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/websocket/WebSocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/restcontroller/AlarmRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/AlarmDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="121" column="46" selection-start-line="121" selection-start-column="46" selection-end-line="121" selection-end-column="46" />
+        <state relative-caret-position="-153">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#open#0;class#WebSocketServer#0" />
+            <element signature="method#sendMessageToSessions#0;class#WebSocketServer#0" />
+            <element signature="method#clearSessionsToBeDeleted#0;class#WebSocketServer#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/impl/AlarmControllerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/restcontroller/SchedulerJobService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        <state relative-caret-position="121">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/schedulerjob/AlarmScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="70" column="101" lean-forward="true" selection-start-line="70" selection-start-column="101" selection-end-line="70" selection-end-column="101" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#searchAlarmByID#0;class#AlarmControllerImpl#0" />
+            <element signature="method#programmaticTimeout#0;class#AlarmScheduler#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://92e7da99-6927-4b33-8a80-00c7991b0d2b/schema/alarmsystem/table/status">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://92e7da99-6927-4b33-8a80-00c7991b0d2b/schema/alarmsystem/table/status.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://92e7da99-6927-4b33-8a80-00c7991b0d2b/schema/alarmsystem/table/alarm">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -952,7 +1205,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37891078" />
               </list>
             </option>
           </splitter-proportions>
@@ -960,12 +1213,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AlarmSystem-ejb</last-edited>
+          <last-edited>JPA|AlarmSystem-ejb</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.37891078" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

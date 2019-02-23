@@ -1,15 +1,20 @@
-package model.dto;
+package model.entities;
 
+
+import javax.json.bind.annotation.JsonbDateFormat;
+import javax.json.bind.annotation.JsonbTransient;
 import javax.persistence.*;
+import javax.xml.bind.annotation.XmlTransient;
 import java.sql.Timestamp;
+import java.time.LocalDateTime;
 
 @Entity
 public class Status {
 
     private Long id;
     private String status;
-    private Timestamp statusChangeTimestamp;
-    private Alarm alarmByAlarmId;
+    private LocalDateTime statusChangeTimestamp;
+    private transient Alarm alarmByAlarmId;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -34,11 +39,12 @@ public class Status {
 
     @Basic
     @Column(name = "statusChangeTimestamp", nullable = false)
-    public Timestamp getStatusChangeTimestamp() {
+    @JsonbDateFormat("yyyy-MM-dd'T'HH:mm:ss")
+    public LocalDateTime getStatusChangeTimestamp() {
         return statusChangeTimestamp;
     }
 
-    public void setStatusChangeTimestamp(Timestamp statusChangeTimestamp) {
+    public void setStatusChangeTimestamp(LocalDateTime statusChangeTimestamp) {
         this.statusChangeTimestamp = statusChangeTimestamp;
     }
 
@@ -67,6 +73,7 @@ public class Status {
 
     @ManyToOne
     @JoinColumn(name = "Alarm_id", referencedColumnName = "id", nullable = false)
+    @JsonbTransient
     public Alarm getAlarmByAlarmId() {
         return alarmByAlarmId;
     }

@@ -1,16 +1,12 @@
 package model.dao;
 
-import model.dto.Comment;
+import model.entities.Comment;
 
-import javax.ejb.Singleton;
-import javax.ejb.Stateful;
 import javax.ejb.Stateless;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.PersistenceContextType;
 import javax.transaction.Transactional;
 
 @Stateless
+@Transactional
 public class CommentDao extends AbstractDao<Comment> {
 
 //    @PersistenceContext(type = PersistenceContextType.EXTENDED , unitName = "AlarmSys")

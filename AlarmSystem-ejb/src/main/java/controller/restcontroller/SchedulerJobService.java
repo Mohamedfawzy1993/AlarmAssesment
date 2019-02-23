@@ -9,25 +9,30 @@ import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.QueryParam;
+import java.util.List;
 
 @Path("scheduler")
 @Stateless
 public class SchedulerJobService {
+
 
     @Inject
     AlarmScheduler alarmScheduler;
 
     @POST
     @Path("alarm/start")
-    public void startAlarmJob(@QueryParam("interval") long interval){
-        alarmScheduler.terminateTimer();
-        alarmScheduler.createTimer(interval);
+    public List<String> startAlarmJob(@QueryParam("interval") long interval){
+        alarmScheduler.terminateTimer(false);
+        List<String> stringList = alarmScheduler.createTimer(interval , true);
+        return stringList;
     }
 
     @POST
     @Path("alarm/stop")
-    public void stopAlarmJob(){
-        alarmScheduler.terminateTimer();
+    public List<String> stopAlarmJob(){
+
+        List<String> stringList = alarmScheduler.terminateTimer(true);
+        return stringList;
     }
 
     @Path("alarm/status")

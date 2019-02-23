@@ -1,6 +1,6 @@
 package model.dao;
 
-import model.dto.Status;
+import model.entities.Status;
 
 import javax.ejb.Stateless;
 

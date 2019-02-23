@@ -2,7 +2,7 @@ package controller.restcontroller;
 
 
 import controller.impl.AlarmControllerImpl;
-import model.dto.ResultSet;
+import model.entities.ResultSet;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
