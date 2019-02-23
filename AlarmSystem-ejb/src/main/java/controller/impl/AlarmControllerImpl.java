@@ -89,7 +89,6 @@ public class AlarmControllerImpl {
             int randomAlarmIndex = new Random().nextInt(alarms.size());
             Alarm randomAlarm = alarms.get(randomAlarmIndex);
             Status status = new Status();
-            System.out.println(randomAlarm);
             // Cease Alarm
             randomAlarm.setIsActive(0);
             randomAlarm.setCeaseTime(LocalDateTime.now());

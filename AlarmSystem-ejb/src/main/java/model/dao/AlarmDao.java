@@ -32,7 +32,6 @@ public class AlarmDao extends AbstractDao<Alarm> {
         Query query = buildCriteriaQuery(alarm , 2);
         if(pagination != null){
             int firstResult = pagination.getPageSize() * (pagination.getCurrentPage()-1);
-            System.out.println("PageSize "+pagination.getPageSize());
             query = query.setFirstResult(firstResult).setMaxResults(pagination.getPageSize());
         }
 
@@ -64,7 +63,6 @@ public class AlarmDao extends AbstractDao<Alarm> {
        orderByClause = " order by u.recentChangeTimestamp desc";
 
        if(query.endsWith("and ")){
-           System.out.println("Query End With Ends ? ");
            query = query.substring(0,query.lastIndexOf("and "));
        }
 

@@ -51,7 +51,6 @@ public class AlarmScheduler  {
             if (timer.getInfo().equals("cease"))
                 timer.cancel();
         }
-        System.out.println("Terminated");
         isRunning = false;
 
         if(log)
@@ -64,7 +63,6 @@ public class AlarmScheduler  {
             interval = 1000;
         timerService.createTimer(0, interval, "Alarm");
         timerService.createTimer(0 , interval*2 , "cease");
-        System.out.println("Created");
         isRunning = true;
         if (log)
         AlarmScheduler.serverLog.add("Alarm Timer Created With Interval of "

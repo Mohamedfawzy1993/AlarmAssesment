@@ -20,7 +20,6 @@ public class WebSocketServer {
     @OnOpen
     public void open(Session session) {
         connectedSessions.add(session);
-        System.out.println(connectedSessions.size());
     }
 
     @OnClose
@@ -36,7 +35,6 @@ public class WebSocketServer {
                 String jsonObject = JsonUtil.toJson(o);
                 session.getBasicRemote().sendText(jsonObject);
             } catch (IOException e) {
-                System.out.println(e);
                 toBeRemovedSessions.add(currentSendingSession);
             }
         }
