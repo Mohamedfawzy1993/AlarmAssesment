@@ -28,6 +28,6 @@ public class CommentRestController {
     @GET
     @Path("all")
     public ResultSet<Comment> getCommentListByAlarmID(@QueryParam("alarmID") String alarmID){
-        return this.commentController.findAlarmComments(Long.parseLong(alarmID), null);
+        return this.commentController.findAlarmComments(Long.parseLong(alarmID));
     }
 }

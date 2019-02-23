@@ -21,19 +21,22 @@ public class CommentControllerImpl {
 
     @Inject
     private CommentDao commentDao;
-    @Inject private AlarmDao alarmDao;
-    public ResultSet<Comment> findAlarmComments(long alarmID, Pagination pagination) {
-        return null;
+    @Inject
+    private AlarmDao alarmDao;
+
+    public ResultSet<Comment> findAlarmComments(Long alarmID) {
+        ResultSet<Comment> commentResultSet = new ResultSet<>();
+        commentResultSet.setData(this.commentDao.getCommentsByAlarmID(alarmID.toString()));
+        return commentResultSet;
     }
 
     public void createComment(Comment comment) {
         if (comment.getComment() != null && comment.getComment().length() > 0) {
             comment.setCommentTimestamp(LocalDateTime.now());
-            List<Alarm> alarmList = this.alarmDao.getAlarmsByID(comment.getAlarmID() , null);
-            if(alarmList.size() > 0){
-                if(comment.getAlarmByAlarmId() == null)
+            List<Alarm> alarmList = this.alarmDao.getAlarmsByID(comment.getAlarmID(), null);
+            if (alarmList.size() > 0) {
+                if (comment.getAlarmByAlarmId() == null)
                     comment.setAlarmByAlarmId(alarmList.get(0));
-//                comment.getAlarmByAlarmId().setAlarmId(comment.getAlarmID());
                 this.commentDao.insert(comment);
             }
 
