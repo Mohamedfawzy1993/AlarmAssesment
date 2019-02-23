@@ -17,7 +17,7 @@ import java.util.List;
 public class AlarmScheduler  {
 
     private boolean isRunning ;
-    static List<String> serverLog = new ArrayList<>();
+    public static List<String> serverLog = new ArrayList<>();
 
     public boolean isRunning() {
         return isRunning;
@@ -72,4 +72,5 @@ public class AlarmScheduler  {
         return AlarmScheduler.serverLog;
 
     }
+
 }

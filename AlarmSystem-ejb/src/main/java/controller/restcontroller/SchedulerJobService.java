@@ -41,4 +41,9 @@ public class SchedulerJobService {
         return "{ \"isRunning\" : "+ (alarmScheduler.isRunning() ? 1 : 0) + "}";
     }
 
+    @Path("alarm/log")
+    @GET
+    public List<String> getLog() {
+        return AlarmScheduler.serverLog;
+    }
 }

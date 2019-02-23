@@ -64,7 +64,6 @@ public class AlarmControllerImpl {
         alarm.setIsActive(1);
         alarm.setDescription("Description");
         alarm.setSeverity(severities.get(criticalIndex));
-//        alarm.setEventTime(TimeStampUtil.CURRENT_TIME());
         alarm.setEventTime(LocalDateTime.now());
         alarm.setRecentChangeTimestamp(LocalDateTime.now());
         // ToDo recheck this assigning
