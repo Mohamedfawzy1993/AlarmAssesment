@@ -26,7 +26,12 @@ export class GeneratorService {
 
   public stopScheduler() {
     const servicePath = 'stop';
-    return this.http.post(ConfigParams.GENERATOR_URL + servicePath , null);
+    return this.http.post(ConfigParams.GENERATOR_URL + servicePath, null);
+  }
+
+  public getLog() {
+    const servicePath = 'log';
+    return this.http.get(ConfigParams.GENERATOR_URL + servicePath);
   }
 
 }

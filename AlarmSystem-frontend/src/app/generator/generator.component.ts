@@ -26,10 +26,18 @@ export class GeneratorComponent implements OnInit {
         this.generatorStatus = success.isRunning;
       }
     );
+
+    this.generatorService.getLog().subscribe(
+      (success: any) => {
+        this.generatorLog = success.join('\n');
+        this.scrollTextAreaToBottom();
+
+      }
+    );
   }
 
   startGenerator() {
-    this.generatorService.startScheduler(this.generatorInterval   * 1000).subscribe(
+    this.generatorService.startScheduler(this.generatorInterval * 1000).subscribe(
       (success: any) => {
         this.generatorStatus = 1;
         this.generatorLog = success.join('' +
